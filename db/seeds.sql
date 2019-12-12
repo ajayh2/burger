@@ -1,5 +1,10 @@
-INSERT INTO burgers (burger_name) VALUES ('jalopeno');
-INSERT INTO burgers (burger_name) VALUES ('peanut-butter');
-INSERT INTO burgers (burger_name, devoured) VALUES ('Steak', true);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Chicken', true);
+USE burgers_db;
 
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("veggie burger", 0);
+
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("cheeseburger", 0);
+
+INSERT INTO burgers (burger_name, devoured)
+VALUES ("hamburger", 1);
